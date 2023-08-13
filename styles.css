@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 20px;
+}
+.tiktok-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tiktok-button button {
+    background-color: #010101;
+    color: #ffffff;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.tiktok-button button:hover {
+    background-color: #333333;
+}
